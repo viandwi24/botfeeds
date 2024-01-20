@@ -425,9 +425,6 @@ export class ServiceBotTelegram {
   }
 
   async onInit() {
-    console.log(`[BOT] [TELEGRAM] [INIT]`)
-    BotsRoutes(this.engine.server, this.engine)
-
     // run bot on database
     const bots = await Bot.findAll({
       where: {
@@ -769,6 +766,7 @@ export class ServerEngine {
     app.get("/", (req, res) => ApiResponse.Custom(res, 200, true, "🚀"));
     FeedsRoutes(app, this)
     TriggersRoutes(app, this)
+    BotsRoutes(app, this)
 
     server.use('/webui', createProxyMiddleware({
       target: 'http://localhost:3000',

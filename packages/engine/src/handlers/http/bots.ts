@@ -3,7 +3,7 @@ import { sequelize, Bot, Trigger, Feed } from '@/lib/db'
 import { ApiResponse } from '@/utils/api'
 import { getBotFromService, type ServerEngine } from '@/foundations/engine'
 
-export default function (server: express.Express, se: ServerEngine) {
+export default function (server: express.Router, se: ServerEngine) {
   server.get("/bots", async (req, res) => {
     const bots = await Bot.findAll()
     ApiResponse.Custom(res, 200, true, "🚀", bots.map(item => {
