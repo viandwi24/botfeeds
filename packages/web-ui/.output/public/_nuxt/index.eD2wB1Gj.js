@@ -1,1 +1,0 @@
-import{_ as o}from"./Table.vue.GHl_pyJA.js";import{_ as t,g as c,o as r}from"./entry.RCh-zIuy.js";import"./api.8WJftHjd.js";const n={};function _(s,a){const e=o;return r(),c(e,{service:"twitter"})}const p=t(n,[["render",_]]);export{p as default};

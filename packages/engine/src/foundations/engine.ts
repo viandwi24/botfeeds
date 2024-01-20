@@ -810,7 +810,7 @@ export class ServerEngine {
       }
     })
 
-    server.use(app);
+    server.use('/api', app);
 
     // set
     this.server = server;

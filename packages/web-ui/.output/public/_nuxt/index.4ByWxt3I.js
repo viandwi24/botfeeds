@@ -1,1 +1,0 @@
-import{_ as o}from"./Table.vue.GHl_pyJA.js";import{_ as c,g as r,o as t}from"./entry.RCh-zIuy.js";import"./api.8WJftHjd.js";const n={};function _(a,s){const e=o;return t(),r(e,{service:"telegram"})}const p=c(n,[["render",_]]);export{p as default};
