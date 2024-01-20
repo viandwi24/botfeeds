@@ -9,15 +9,15 @@ module.exports = {
         "NODE_ENV": "production"
       }
     },
-    {
-      name: "botfeed.viandwi24.com-web",
-      script: "bun",
-      args: "preview",
-      cwd: "./packages/web-ui",
-      env: {
-        "PORT": 3007,
-        "NODE_ENV": "production"
-      }
-    },
+    // {
+    //   name: "botfeed.viandwi24.com-web",
+    //   script: "bun",
+    //   args: "preview",
+    //   cwd: "./packages/web-ui",
+    //   env: {
+    //     "PORT": 3007,
+    //     "NODE_ENV": "production"
+    //   }
+    // },
   ]
 };
