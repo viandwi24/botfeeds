@@ -1,0 +1,27 @@
+{
+  "name": "@botfeeds/web-ui",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/ui": "npm:@nuxt/ui-edge@latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "dayjs-nuxt": "latest",
+    "nuxt": "^3.9.0",
+    "nuxt-api-party": "latest",
+    "nuxt-headlessui": "latest",
+    "nuxt-icon": "latest",
+    "nuxt-lodash": "latest",
+    "vue": "^3.4.3",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  }
+}
